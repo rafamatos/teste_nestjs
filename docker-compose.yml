@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    container_name: dbpostgresql
+    image: postgres:14.3
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRESQL_DATABASE: rural
+      PGDATA: /data/postgres
+    volumes:
+      - ./data/postgres:/data/postgres
+  
