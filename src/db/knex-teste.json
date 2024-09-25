@@ -1,0 +1,22 @@
+// interface KnexConfig {
+//     [key: string]: object;
+// };
+
+// const knexConfig: KnexConfig = {
+//     local: {
+//         client: 'sqlite3',
+//         connection: {
+//         filename: './dev.sqlite3'
+//         }
+//     },
+
+//     development: {
+//         ...defaults,
+//         debug: true,
+//         useNullAsDefault: true
+//     },
+
+//     production: {
+//         ...defaults
+//     }
+// };
