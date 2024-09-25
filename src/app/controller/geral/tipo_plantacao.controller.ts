@@ -102,7 +102,7 @@ export class TipoPlantacaoController {
 
       } else {
 
-        let dtoriginal = await model.get({});
+        //let dtoriginal = await model.get({});
 
         result = await model.update(id, {
           id,

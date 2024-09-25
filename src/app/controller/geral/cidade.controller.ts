@@ -108,7 +108,7 @@ export class CidadeController {
 
       } else {
 
-        let dtoriginal = await model.get({});
+        //let dtoriginal = await model.get({});
 
         result = await model.update(id, {
           nome,
